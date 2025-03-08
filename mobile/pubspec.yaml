@@ -1,0 +1,58 @@
+name: immo_app
+description: Application immobilière de recherche et publication d'annonces
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  http: ^0.13.5
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.2
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.7
+  intl: ^0.18.0
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.0
+  firebase_messaging: ^14.6.0
+  flutter_local_notifications: ^14.0.0
+  carousel_slider: ^4.2.1
+  dio: ^5.1.2
+  flutter_dotenv: ^5.0.2
+  url_launcher: ^6.1.11
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.6
+  shimmer: ^3.0.0
+  connectivity_plus: ^4.0.1
+  path_provider: ^2.0.15
+  photo_view: ^0.14.0
+  flutter_slidable: ^3.0.0
+  webview_flutter: ^4.2.1
+  flutter_easyloading: ^3.0.5
+  flutter_form_builder: ^9.0.0
+  form_builder_validators: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.3
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - .env
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
